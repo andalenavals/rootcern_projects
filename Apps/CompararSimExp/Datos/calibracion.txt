@@ -1,0 +1,21 @@
+Energia = 0.77*Chanel + 12.04
+//Esta fue hecha a ojo usando todas las fuentes
+
+******Formal*************
+
+UNICAMENTE 22Na
+Canal = 1.26833 (0.0656449)* Energia - 0.368329 (49.7218) 
+
+UNICAMENTE 137Cs usando retrodispersion y fotopico
+Canal = 1.36904 (0.00510793)* Energia -63.7895 (2.43887)
+
+TODAS
+Canal = 1.26811 (0.0655734)*Energia + 0.741527 (47.3896)
+
+
+Es importante tener en cuenta la aleatorizacion,ya que el ancho del
+bin en el espectro en energia no tiene porque ser igual al ancho en el
+espectro en canales.  Pequeno MonteCarlo para controlar eso.
+
+Es importante siempre tener como parametro de control que se Conserve
+el numero de cuentas.
